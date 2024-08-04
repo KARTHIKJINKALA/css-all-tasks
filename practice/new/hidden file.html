@@ -25,11 +25,10 @@
         }
         .hide{
             display: none;
-          
-
+      
         }
-        #j1:focus~.hide{
-            display: inline;
+        .j1:focus~.hide{
+            display: block;
         }
     </style>
 </head>
@@ -40,7 +39,7 @@
             <a href="#home">home</a>
             <a href="#services">services</a>
             <a href="#contact">contact</a>
-            <a href="#menu" id="j1">menu bar</a>
+            <a href="#menu" class="j1">menu bar</a>
 
             <div class="hide">
                 <table border="3" cellpadding="5px"> 

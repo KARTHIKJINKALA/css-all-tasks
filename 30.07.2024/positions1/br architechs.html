@@ -4,186 +4,238 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        div{
+            background-color: white;
+        }
+        .br{
+            background-color: rgb(255, 255, 153);
+            width: 100%;
+            padding: 1%;
+            text-align: center;
+            color: rgb(255, 89, 0);
+            text-shadow: 0px 0px 5px rgb(255, 153, 255);
+            position: sticky;
+            top: 0%;
+           
+            
+           
+           
+        }
+       
+        a:hover{
+            color: rgb(102, 102, 0);
+        }
+    
+       
+        .paragraph{
+            width: 40%;
+            display: inline-block;
+        }
+        .paragraph>h1{
+            color: rgb(0, 134, 179); 
+            width: 20%; 
+            margin-top: 20%; 
+            margin-left: 15%; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        }
+        .para{
+            width:50%;
+            
+            display: inline-block;
+            height: 60vh;
+            
+        }
+        .para>p{
+         padding: 15%;
+         text-align: justify;
+            font-family: cursive;
+
+        }
+        .book{
+            background-color: darkgray;
+            height:20vh;
+            text-align: center;
+        }
+        .book>h1{
+            padding:4%;
+        }
+        .images{
+            
+            
+            width: 90%;
+            height: 158vh;
+            margin-left: 10%;
+            overflow: scroll;
+            scrollbar-width: none;
+           
+        }
+       
+       .services{
+        background-color: chartreuse;
+        text-align: center;
+        height: 5vh;
+
+
+       }
+       .project{
+        width: 20%;
+       padding-left: 5%;
+       padding-right: 5%;
+       padding-bottom: 5%;
+        padding-top: 3%;
+         margin-left: 10%;
+         margin-top: 5%;
+        background-color: whitesmoke;
+           display: inline-block;
+           text-align: center;
+       
+       }
+       .project1{
+        width: 20%;
+       padding-left: 5%;
+       padding-right: 5%;
+       padding-bottom: 5%;
+        padding-top: 2%;
+         margin-left: 10%;
+         margin-top: 5%;
+        background-color: whitesmoke;
+           display: inline-block;
+           text-align: center;
+      
+       }
+       .project2{
+        width: 20%;
+       padding-left: 5%;
+       padding-right: 5%;
+       padding-bottom: 5%;
+        padding-top: 3%;
+         margin-left: 10%;
+         margin-top: 5%;
+        background-color: whitesmoke;
+           display: inline-block;
+           text-align: center;
+
+       }
+       .project3{
+        width: 20%;
+       padding-left: 5%;
+       padding-right: 5%;
+       padding-bottom: 5%;
+        padding-top: 6%;
+         margin-left: 10%;
+         margin-top: 5%;
+        background-color: whitesmoke;
+           display: inline-block;
+           text-align: center;
+      
+       }
+       .hide{
+            display: none;
+            }
+
+        #menu:hover~.hide{
+
+            display: block;
+        }
+        .position{
+            position: sticky;
+            top: 0%;
+        }
+       
+
+       
+     
+       
+       
+        </style>
 </head>
 <body>
-    <style>
-        .j1>h1{
-            color: red;
-            background-color: rgb(196, 255, 253);
-            height: 40px;
-            width: 100%;
-           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        
-        }
-        .j1>img{
-            height:80%;
-            width: 100%;
-        }
-        .hello{
-            background-color: aqua;
-            height: 200px;
-            width: 100%;position: relative;
-        }
-        .hello>img{
-            height: 200px;
-            width: 14%;
-        }
-        .names>.j1{
-           font-size: 15px;
-           background-color: cornsilk;
-           width: 115px;
-           color: red;
-           text-align: center;
-           border-radius: 50px;
-           position: absolute;
-           bottom: -56px;
-        }
-        .names>.j2{
-           font-size: 15px;
-           background-color: cornsilk;
-           width: 115px;
-           color: rgba(147, 112, 216, 0.874);
-           text-align: center;
-           border-radius: 50px;
-           position: absolute;
-           left: 225px;
-           bottom: -56px;
-        }
-        .names>.j3{
-           font-size: 15px;
-           background-color: cornsilk;
-           width: 115px;
-           color:red;
-           border-radius: 50px;
-            position: absolute;
-           left: 440px;
-           bottom: -56px;
-           text-align: center;
-           
+    <div>
+        <nav class="position">
+            <div class="br">
+               <h1>BR ARCHITECTURES</h1>
+                <a href="#about">About</a>
+                <a href="#contact">Projects</a>
+                <a href="#services">Services</a>
+                <a href="" id="menu">Menubar</a>
+            
 
-        }
-        .names>.j4{
-           font-size: 15px;
-           background-color: cornsilk;
-           width: 115px;
-           color: rgba(147, 112, 216, 0.874);
-           border-radius: 50px;
-           position: absolute;
-           right: 751px;
-           bottom: -56px;
-           text-align: center;
-        }
-        .names>.j5{
-           font-size: 15px;
-           background-color: cornsilk;
-           width: 115px;
-           color: red;
-           border-radius: 50px;
-           position: absolute;
-           right: 535px;
-           bottom: -56px;
-           text-align: center;
-        }
-        .names>.j6{
-           font-size: 15px;
-           background-color: cornsilk;
-           width: 115px;
-           color: rgba(147, 112, 216, 0.874);
-           border-radius: 50px;
-           position: absolute;
-           right: 320px;
-           bottom: -56px;
-           text-align: center;
-        
-        }
-        .names>.j7{
-           font-size: 15px;
-           background-color: cornsilk;
-           width: 115px;
-           color: red;
-           border-radius: 50px;
-           position: absolute;
-           right: 105px;
-           bottom: -56px;
-           text-align: center;
-        }
+            <div class="hide">
+                <table border="3" cellpadding="5px"> 
+                    <tr>
+                        <td bgcolor="yellow"><a href="">how can we help</a></td>
+                        
+                    </tr>
+                    <tr>
+                        <td bgcolor="yellow"><a href="">contact us😎</a></td>
+                    </tr>
+                </table>
+            </div>
+        </nav>
 
-        .names>.j8{
-            font-size: 50px;
-            background-color: whitesmoke;
-            color: red;
-            padding-left: 60px;
-            padding-top: 30px;
-            padding-bottom: 20px;
-            padding-right: 50px;
-            border-radius: 30px;
-            position: absolute;
-            text-align: center;
-            top: 370px;
-            left: 550px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-           
+        <div class="paragraph" id="about">
+            <h1>Architectural Design North Wales & Cheshire</h1>
+        </div>
 
-           
-        }
-        .back{
-            width: 100%;
-            background-color: rgb(255, 217, 0);
-            height:50px;
-            margin-top: 10px;
-        }
-        .z1{
-            display: inline-block;
-            position: absolute;
-            left: 90%;
-            bottom: 93%;
+        <div class="para">
+            <p>
+                Are you looking for an Architect or Designer? BR Architecture is based in North Wales and Chester and will guide you through the entire design process for new build, conversions, or extensions projects.
+
+BR Architecture is a family run Business which has been running for 16 years. Barry Richards has over 20 years of experience in Architecture and has worked with a number of local and national architects practices, on both small and large scale projects throughout North Wales, Cheshire and the North West.
+            </p>
+        </div>
+       
+        <div class="book" id="contact">
+            <h1>Book your free consultation today!</h1>
+        </div><br><br>
+        <div class="images">
+            <img src="Exterior_1-Photo-400x284.jpg" alt="" >
+            <img src="ex2.jpg" alt="">
+            <img src="ex3.jpg" alt="">
+            <img src="ex4.jpg" alt="">
+            <img src="ex5.jpg" alt="">
+            <img src="ex6.jpg" alt="">
+            <img src="ex7.jpg" alt="">
+            <img src="ex8.jpg" alt="">
+            <img src="ex9.jpg" alt="">
+            <img src="ex10.jpg" alt="">
+            <img src="ex11.jpg" alt="">
+            <img src="ex12.jpg" alt="">
+        </div><br><br>
+
+       
+
+       <div id="services">
+        <div class="services"><h1>services</h1></div>
+        <br><br>
+        <div class="project">
+            <h1>Design</h1>
+            <p>We work with you on the design of your project and look to bring your dreams to life.</p>
+        </div>
+        <div class="project1">
+            <h1>Drawings</h1>
+            <p>We come up with design sketches and use the latest 3D technology so you can get a clear picture of what your project will look like.</p>
+
+        </div>
+        <div class="project2">
+            <h1>Planning</h1>
+            <p>We are with you every step of the way including submitting drawings and specifications to obtain planning permission. We work with planning authorities for you so you don’t have to.</p>
+
+        </div>
+        <div class="project3">
+            <h1>Construction</h1>
+            <p>We help you find the right builder for your project too, to ensure quality throughout, from start to finish.</p>
+
+        </div>
+        </div>
+
+
  
-        }
-        
-        
-    
-        </style>
-    
-    <body>
-         
-        <div class="j1">
-            <h1><u>BR ARCHITECTS</u></h1></a>
-            <img src="Screenshot 2024-07-30 222912.png" alt="">
-        </div>
-    
-        
-        <div class="hello">
-            <img src="summer home.jpg" alt="">
-            <img src="barn housre.jpg" alt="">
-            <img src="individual home.jpg" alt="">
-            <img src="brick home.jpg" alt="">
-            <img src="renovated home.jpg" alt="">
-            <img src="town homes.jpg" alt="">
-            <img src="palace.jpg" alt="">
-           
-        </div>
 
 
-  <div class="names">
-     <h1 class="j1">Summer house</h1>
-     <h1 class="j2">Barn house</h1>
-     <h1 class="j3">Individual home</h1>
-     <h1 class="j4">Brick home</h1>
-     <h1 class="j5">Renovated home</h1>
-     <h1 class="j6">Town homes</h1>
-     <h1 class="j7">Palace</h1>
-     <h8 class="j8">BR Architects</h8> 
-</div>     
 
-<div class="back">
-
-</div>
-<br>
-
-<div class="z1">
-    <a href="">projects</a>
-    <a href="">about</a>
-    <a href="">contact</a>
-</div>
+    </div>
 </body>
 </html>
