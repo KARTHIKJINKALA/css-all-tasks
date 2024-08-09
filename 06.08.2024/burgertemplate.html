@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: whitesmoke
+        }
+        .container{
+            position: sticky;
+            top: 0px;
+
+        }
+        .box{
+           
+            height: vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            top: 10px;
+            background-color: white;
+           
+        box-shadow: 8px 5px 10px 5px whitesmoke
+       }
+        
+        .box1{
+            margin-left: 5%;
+        }
+        .box2{
+            display:flex;
+           justify-content: space-between;
+           align-items: center;
+           column-gap: 30px;
+        }
+        
+        p{
+            font-family: cursive;
+            font-weight: 20px;
+        }
+        .burger{
+            height: 100vh;
+            width: 100%;
+           
+            
+            background-image: url(hamburger.jpg);
+            
+        box-shadow: 8px 5px 10px 5px yellow
+       }
+
+        
+        .tableset{
+           
+            margin-top: 2%;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            column-gap: 20px;
+
+        }
+        .image{
+           
+            width: 35%;
+        }
+        .image>img{
+           
+            height:80vh;
+            width: 100%;
+        }
+        .content{
+            height: 70vh;
+            width: 30%;
+            
+        box-shadow: 8px 5px 10px 5px rgb(179, 170, 0)
+       
+        }
+        .content>p:nth-child(1){
+            text-shadow: 5px 6px 8px rgb(34, 255, 0);
+        }
+        .content>p:nth-child(2){
+            text-shadow: 5px 6px 8px rgb(255, 0, 0);
+        }
+        .content>p{
+            text-shadow: 1px 3px 5px orange;
+            text-align: center;
+        }
+        .content1>p:nth-child(1){
+           font-size: 30px;
+           color: chartreuse;
+           text-shadow: 2px 5px 10px red;
+        }
+        .content1>p:nth-child(even){
+           font-size: 20px;
+           color: cadetblue;
+           
+           text-shadow: 2px 3px 10px rgb(0, 183, 255);
+        }
+        .content1>p:nth-child(odd){
+            color: rgb(160, 95, 140);
+           
+           text-shadow: 2px 3px 10px rgb(0, 183, 255);
+
+        }
+        .content1>p:nth-child(1){
+           font-size: 30px;
+           color: chartreuse;
+           text-shadow: 2px 5px 10px red;
+        }
+        .tableset1{
+            
+            margin-top: 2%;
+            display: flex;
+            justify-content: center;
+            column-gap: 20px;
+
+        }
+        .content1{
+            
+            height: 80vh;
+            width: 30%;
+            
+        box-shadow: 8px 5px 10px 5px rgb(84, 179, 0)
+    
+
+        }
+        .image1{
+           
+            width: 25%;
+        }
+        .image1>img{
+          
+            height:80vh;
+            width: 100%;
+        }
+        .last1{
+            
+        box-shadow: 8px 5px 10px 5px rgb(0, 173, 179)
+        
+        }
+        .button{
+            
+            height: 50vh;
+            margin-top: 2%;
+        }
+        .type{
+            
+            height: 50vh;
+            
+        box-shadow: 8px 5px 10px 5px rgb(0, 179, 36)
+       
+            
+
+        }
+        .type1>input{
+            
+           width:100%;
+           height: 5vh;
+           margin-top: 2%;
+        }
+        input:hover{
+            background-color: white;
+        }
+        .box1>p{
+            text-shadow: 2px 3px 5px rgb(193, 255, 192);
+        }
+       h1{
+        text-shadow: 2px 3px 8px blueviolet;
+       }
+       .image{
+        box-shadow: 8px 5px 10px 5px rgb(0, 179, 134)
+       }
+       .image1{
+        box-shadow: 8px 5px 10px 5px rgb(0, 179, 134)
+       }
+       .box2a>a{
+        padding-right: 30px;
+        text-shadow: 2px 3px 4px red;
+      
+       }
+      
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        <div class="box1">
+            <p>Gourmet au catering</p>
+        </div>
+        <div class="box2">
+        <div class="box2a">
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+            
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="burger">
+        <div class="text">
+            <p>Le Catering</p>
+        </div>
+
+    </div>
+
+    <div class="tableset" id="about">
+        <div class="image">
+            <img src="tablesetting2.jpg" alt="">
+        </div>
+        <div class="content">
+            <p>About Catering</p>
+            <p>Tradition since 1889</p>
+            <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+
+    <div class="tableset1" id="menu">
+        <div class="content1">
+            <p>Our Menu</p>
+            <p>Bread Basket</p>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <p>Honey Almond Granola with Fruits</p>
+            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            <p> Belgian Waffle</p>
+            <p>Vanilla flavored batter with malted flour 7.50</p>
+            <p>Scrambled eggs</p>
+            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            <p>Blueberry Pancakes</p>
+            <p>With syrup, butter and lots of berries 8.50</p>
+        </div>
+        <div class="image1">
+            <img src="tablesetting.jpg" alt="">
+        </div>
+    </div>
+    <div class="last" id="contact">
+        <div class="last1">
+            <h1>Contact</h1>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+         <p>Catering Service, 42nd Living St, 43043 New York, NY</p>
+         You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:
+    </div>
+    <div class="button">
+        <div class="type">
+
+       <div class="type1">
+        <label for="username"></label>
+        <input type="text" id="text" placeholder="name">
+    </div>
+    <div class="type1">
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="email">
+        </div>
+        <div class="type1">
+        <label for="number"></label>
+       <input type="number" id="number" placeholder=" mobile number">
+    </div>
+
+    <div class="type1">
+       <label for="date"></label>
+       <input type="date" id="date" placeholder="date time">
+    </div>
+    <div class="type1">
+        <button>send me</button>
+    </div>
+        
+    </div>
+    </div>
+    </div>
+    </div>
+   
+    
+</body>
+</html>

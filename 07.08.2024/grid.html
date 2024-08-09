@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* grid properties *
+        /* we can design complex and two dimensional layouts */
+        /* grid parent propertites */
+        /* display grid;
+        gird template columns;
+        grid template rows;
+        column gap;
+        row gap;
+        gap*/
+     .container{
+        display: grid;
+        grid-template-areas:
+        "header header header header"
+        "nav nav nav nav"
+        "aside footer footer footer"
+        "aside article article article";
+     }
+        .container div{
+            background-color: aquamarine;
+            border: 2px solid black;
+            padding: 25px;
+            height: 10vh;
+            
+            
+        }
+        .header1{
+            grid-area: header;
+
+        }
+       
+        .nav1{
+            grid-area: nav;
+        }
+        
+            
+      
+        .aside1{
+            grid-area: aside;
+
+        }
+       
+        .footer1{
+            grid-area: footer;
+
+        }
+        .article{
+            grid-area: article;
+        }
+       
+        
+  
+
+         
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="header1">header</div>
+     
+      
+      <div class="nav1">nav</div>
+     
+      <div class="aside1">aside</div>
+      
+      <div class="footer1">footer</div>
+      <div class="article">article</div>
+      
+     
+      
+    </div>
+    
+
+    
+</body>
+</html>

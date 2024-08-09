@@ -5,237 +5,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
-        div{
+        .container{
+            display: flex;
+            justify-content:space-between ;
+            align-items: center;
             background-color: white;
+            position: sticky;
+            top: 0px;
+           
+           
         }
         .br{
-            background-color: rgb(255, 255, 153);
-            width: 100%;
-            padding: 1%;
-            text-align: center;
-            color: rgb(255, 89, 0);
-            text-shadow: 0px 0px 5px rgb(255, 153, 255);
-            position: sticky;
-            top: 0%;
-           
-            
-           
-           
+            margin-left: 2%;
         }
-       
-        a:hover{
-            color: rgb(102, 102, 0);
-        }
-    
-       
-        .paragraph{
-            width: 40%;
-            display: inline-block;
-        }
-        .paragraph>h1{
-            color: rgb(0, 134, 179); 
-            width: 20%; 
-            margin-top: 20%; 
-            margin-left: 15%; 
-            font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        }
-        .para{
-            width:50%;
-            
-            display: inline-block;
-            height: 60vh;
+        .links{
+            display: flex;
+            padding-right: 30vh;
+            column-gap: 30%;
             
         }
-        .para>p{
-         padding: 15%;
-         text-align: justify;
-            font-family: cursive;
-
+        .background{
+            background-image: url(architect.jpg);
+            background-repeat: no-repeat;
+            height: 100vh;
+            
+            
         }
-        .book{
-            background-color: darkgray;
-            height:20vh;
-            text-align: center;
+        .text{
+            margin-left: 45%;
         }
-        .book>h1{
-            padding:4%;
+        .text>h1{
+            background-color: white;
+            width: 25%;
+            color: cadetblue;
+            position: relative;
+            top: 50vh;
+         
+            
         }
+      
         .images{
-            
-            
-            width: 90%;
-            height: 158vh;
-            margin-left: 10%;
-            overflow: scroll;
-            scrollbar-width: none;
+            display: grid;
+            grid-template-columns: 23% 23% 23% 23%;
+            column-gap: 2%;
+            row-gap: 2%;
+            margin-top: 2%;
+
+            margin-left: 2%;
            
         }
        
-       .services{
-        background-color: chartreuse;
-        text-align: center;
+    
+        .images>img{
+            width: 20vw;
+            
+        }
+     .team1,.team2,.team3,.team4{
+      
+        width: 23%;
+        height: 60vh;
+       
+
+     }
+     .team1>button,.team2>button,.team3>button,.team4>button{
+      margin-left: 20%;
+      width: 14vw;
+     }
+     .team{
+        display: flex;
+         column-gap: 1%;
+     }
+     input{
+        width: 100%;
         height: 5vh;
-
-
-       }
-       .project{
-        width: 20%;
-       padding-left: 5%;
-       padding-right: 5%;
-       padding-bottom: 5%;
-        padding-top: 3%;
-         margin-left: 10%;
-         margin-top: 5%;
-        background-color: whitesmoke;
-           display: inline-block;
-           text-align: center;
-       
-       }
-       .project1{
-        width: 20%;
-       padding-left: 5%;
-       padding-right: 5%;
-       padding-bottom: 5%;
-        padding-top: 2%;
-         margin-left: 10%;
-         margin-top: 5%;
-        background-color: whitesmoke;
-           display: inline-block;
-           text-align: center;
-      
-       }
-       .project2{
-        width: 20%;
-       padding-left: 5%;
-       padding-right: 5%;
-       padding-bottom: 5%;
-        padding-top: 3%;
-         margin-left: 10%;
-         margin-top: 5%;
-        background-color: whitesmoke;
-           display: inline-block;
-           text-align: center;
-
-       }
-       .project3{
-        width: 20%;
-       padding-left: 5%;
-       padding-right: 5%;
-       padding-bottom: 5%;
-        padding-top: 6%;
-         margin-left: 10%;
-         margin-top: 5%;
-        background-color: whitesmoke;
-           display: inline-block;
-           text-align: center;
-      
-       }
-       .hide{
-            display: none;
+     }
+     .name,.email,.subject,.comment{
+        margin-top: 1%;
+     }
+    .button>button{
+        margin-top: 2%;
+        width: 15%;
+        height:6vh;
+        background-color: black;
+        color: white;
+        
+    }
+    .map{
+        margin-top: 5%;
+        background-image: url(map.jpg);
+        background-repeat: no-repeat;
+        height: 80vh;
+        background-attachment: fixed;
+    }
+    @media screen and (width<576px){
+            .container,.background{
+                 background-color: chartreuse;
+                 flex-direction: column;
             }
-
-        #menu:hover~.hide{
-
-            display: block;
         }
-        .position{
-            position: sticky;
-            top: 0%;
+        @media screen and (width<576px){
+            .images{
+                 background-color: chartreuse;
+               grid-template-columns: auto auto auto auto;
+            }
         }
-       
+        @media screen and (width<576px){
+            .contact{
+                 background-color: chartreuse;
+                 flex-direction: column;
+            }
+        }
+        @media screen and (width<576px){
+            .team{
+                 background-color: rgb(251, 255, 0);
+                 display: block;
+            }
+        }
 
-       
-     
-       
-       
-        </style>
+    </style>
 </head>
 <body>
-    <div>
-        <nav class="position">
-            <div class="br">
-               <h1>BR ARCHITECTURES</h1>
-                <a href="#about">About</a>
-                <a href="#contact">Projects</a>
-                <a href="#services">Services</a>
-                <a href="" id="menu">Menubar</a>
-            
+    <div class="container">
+        <div class="br">
+            <h2>Br Architects</h2>
 
-            <div class="hide">
-                <table border="3" cellpadding="5px"> 
-                    <tr>
-                        <td bgcolor="yellow"><a href="">how can we help</a></td>
-                        
-                    </tr>
-                    <tr>
-                        <td bgcolor="yellow"><a href="">contact us😎</a></td>
-                    </tr>
-                </table>
+        </div>
+        <div class="link">
+            <div class="links">
+            <a href="#projects"> Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
             </div>
-        </nav>
-
-        <div class="paragraph" id="about">
-            <h1>Architectural Design North Wales & Cheshire</h1>
         </div>
-
-        <div class="para">
-            <p>
-                Are you looking for an Architect or Designer? BR Architecture is based in North Wales and Chester and will guide you through the entire design process for new build, conversions, or extensions projects.
-
-BR Architecture is a family run Business which has been running for 16 years. Barry Richards has over 20 years of experience in Architecture and has worked with a number of local and national architects practices, on both small and large scale projects throughout North Wales, Cheshire and the North West.
-            </p>
+    </div>
+    <div class="background">
+        <div class="text">
+            <h1>BR Architects</h1>
         </div>
-       
-        <div class="book" id="contact">
-            <h1>Book your free consultation today!</h1>
-        </div><br><br>
-        <div class="images">
-            <img src="Exterior_1-Photo-400x284.jpg" alt="" >
-            <img src="ex2.jpg" alt="">
-            <img src="ex3.jpg" alt="">
-            <img src="ex4.jpg" alt="">
-            <img src="ex5.jpg" alt="">
-            <img src="ex6.jpg" alt="">
-            <img src="ex7.jpg" alt="">
-            <img src="ex8.jpg" alt="">
-            <img src="ex9.jpg" alt="">
-            <img src="ex10.jpg" alt="">
-            <img src="ex11.jpg" alt="">
-            <img src="ex12.jpg" alt="">
-        </div><br><br>
-
-       
-
-       <div id="services">
-        <div class="services"><h1>services</h1></div>
-        <br><br>
-        <div class="project">
-            <h1>Design</h1>
-            <p>We work with you on the design of your project and look to bring your dreams to life.</p>
-        </div>
-        <div class="project1">
-            <h1>Drawings</h1>
-            <p>We come up with design sketches and use the latest 3D technology so you can get a clear picture of what your project will look like.</p>
-
-        </div>
-        <div class="project2">
-            <h1>Planning</h1>
-            <p>We are with you every step of the way including submitting drawings and specifications to obtain planning permission. We work with planning authorities for you so you don’t have to.</p>
-
-        </div>
-        <div class="project3">
-            <h1>Construction</h1>
-            <p>We help you find the right builder for your project too, to ensure quality throughout, from start to finish.</p>
-
-        </div>
-        </div>
-
-
- 
-
-
 
     </div>
+    <div class="project" id="projects">
+        <div class="images">
+            <img src="house1.jpg" alt="">
+            <img src="house2.jpg" alt="">
+            <img src="house3.jpg" alt="">
+            <img src="house4.jpg" alt="">
+            <img src="house2 (1).jpg" alt="">
+            <img src="house5.jpg" alt="">
+            <img src="house4 (1).jpg" alt="">
+            <img src="house3 (1).jpg" alt="">
+        </div>
+    </div>
+    <div class="about" class="about">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="team">
+
+        <div class="team1">
+        <img src="team2.jpg" alt="" height="50%" width="100%">
+        <h1>John Doe</h1>
+        <h3>Ceo & Founder</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button>contact</button>
+        </div>
+    
+    
+        <div class="team2">
+        <img src="team1.jpg" alt="" height="50%" width="100%">
+        <h1>Jane Doe</h1>
+        <h3>Architect</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button>contact</button>
+        </div>
+    
+    
+       <div class="team3">
+        <img src="team3.jpg" alt="" height="50%" width="100%">
+        <h1>Mike Ross</h1>
+        <h3>Architect</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button>contact</button>
+        </div>
+    
+    
+        <div class="team4">
+        <img src="team4.jpg" alt="" height="50%" width="100%">
+        <h1>Dan Star</h1>
+        <h3>Architect</h3>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <button>contact</button>
+        </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <h1>Contact</h1>
+            <p>Lets get in touch and talk about your next project.</p>
+          
+
+        </div>
+        <div class="name">
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="name">
+        </div>
+
+        <div class="email">
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="email">
+        </div>
+        <div class="subject">
+            <label for="subject"></label>
+            <input type="text" id="subject" placeholder="subject">
+        </div>
+        <div class="comment">
+            <label for="comment"></label>
+            <input type="text" id="comment" placeholder="comments">
+        </div>
+
+        <div class="button">
+            <button>send message</button>
+        </div>
+        <div class="map">
+            
+        </div>
+
+
+
+
 </body>
 </html>
