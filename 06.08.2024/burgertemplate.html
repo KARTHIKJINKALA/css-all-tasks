@@ -47,9 +47,11 @@
             
             background-image: url(hamburger.jpg);
             
-        box-shadow: 8px 5px 10px 5px yellow
+        box-shadow: 8px 5px 10px 5px yellow;
+        display: flex;
+        align-items: end;
        }
-
+       
         
         .tableset{
            
@@ -179,6 +181,13 @@
         text-shadow: 2px 3px 4px red;
       
        }
+       @media screen and(width<576px){
+        .box{
+            flex-direction: column;
+        }
+              
+            
+       }
       
       
     </style>
@@ -201,7 +210,7 @@
     </div>
     <div class="burger">
         <div class="text">
-            <p>Le Catering</p>
+            <h1>Le Catering</h1>
         </div>
 
     </div>

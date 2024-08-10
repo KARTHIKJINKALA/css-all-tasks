@@ -27,39 +27,92 @@
         .background{
             background-image: url(architect.jpg);
             background-repeat: no-repeat;
+            background-attachment: fixed;
             height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
             
             
-        }
-        .text{
-            margin-left: 45%;
         }
         .text>h1{
-            background-color: white;
-            width: 25%;
-            color: cadetblue;
-            position: relative;
-            top: 50vh;
-         
-            
-        }
-      
-        .images{
-            display: grid;
-            grid-template-columns: 23% 23% 23% 23%;
-            column-gap: 2%;
-            row-gap: 2%;
-            margin-top: 2%;
-
-            margin-left: 2%;
            
+            color: gold;
         }
        
+      .project{
+        margin-top: 2%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+       justify-content: space-between;
+       row-gap: 2%;
+       
+
+      }
+       .image1{
+        background-image: url(/css-all-tasks/30.07.2024/positions1/house1.jpg);
+       background-repeat: no-repeat;
+       height: 30vh;
+       width:80%;
+       }
+       .image2{
+        background-image: url(/css-all-tasks/30.07.2024/positions1/house2.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 30vh;
+       width:80%;
+       }
+       .image3{
+        background-image: url(/css-all-tasks/30.07.2024/positions1/house3.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 30vh;
+       width:80%;
+       }
+       .image4{
+        background-image: url(/css-all-tasks/30.07.2024/positions1/house4.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 30vh;
+       width:80%;
+       }
+       .image5{
+        background-image: url(/css-all-tasks/30.07.2024/positions1/house2\ \(1\).jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 30vh;
+       width:80%;
+       }
+       .image6{
+        background-image: url(/css-all-tasks/30.07.2024/positions1/house3\ \(1\).jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 30vh;
+       width:80%;
+       }
+       .image7{
+        background-image: url(/css-all-tasks/30.07.2024/positions1/house4\ \(1\).jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 30vh;
+       width:80%;
+       }
+       .image8{
+        background-image: url(/css-all-tasks/30.07.2024/positions1/house5.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 30vh;
+       width:80%;
+       }
+     
+     
+
+     
+      
+      
     
-        .images>img{
-            width: 20vw;
-            
-        }
+       
      .team1,.team2,.team3,.team4{
       
         width: 23%;
@@ -74,7 +127,9 @@
      .team{
         display: flex;
          column-gap: 1%;
+         
      }
+    
      input{
         width: 100%;
         height: 5vh;
@@ -121,6 +176,14 @@
                  display: block;
             }
         }
+        .projects{
+            background-image: url(/css-all-tasks/30.07.2024/positions1/house1.jpg);
+        }
+        span{
+                   background-color: black;
+                   color: white;
+                   font-size: 3vh;
+        }
 
     </style>
 </head>
@@ -141,20 +204,57 @@
     <div class="background">
         <div class="text">
             <h1>BR Architects</h1>
+            
         </div>
 
     </div>
-    <div class="project" id="projects">
-        <div class="images">
-            <img src="house1.jpg" alt="">
-            <img src="house2.jpg" alt="">
-            <img src="house3.jpg" alt="">
-            <img src="house4.jpg" alt="">
-            <img src="house2 (1).jpg" alt="">
-            <img src="house5.jpg" alt="">
-            <img src="house4 (1).jpg" alt="">
-            <img src="house3 (1).jpg" alt="">
+    <div class="text1"  id="projects">
+        <h1>Projects</h1>
+    </div>
+    <div class="project">
+       
+        <div class="image1">
+            <span>Summer home</span>
+
         </div>
+        <div class="image2">
+            <span>Brick home</span>
+
+        </div>
+        <div class="image3">
+            <span>Renovated</span>
+
+        </div>
+        <div class="image4">
+            <span>Barn home</span>
+
+        </div>
+        <div class="image5">
+            <span>Summer home</span>
+
+        </div>
+
+        <div class="image6">
+            <span>Brick home</span>
+
+        </div>
+        <div class="image7">
+            <span>Renovated</span>
+
+        </div>
+        <div class="image8">
+            <span>Barn home</span>
+
+        </div>
+
+
+
+
+
+
+
+
+        
     </div>
     <div class="about" class="about">
         <h1>About</h1>
@@ -203,7 +303,7 @@
             <p>Lets get in touch and talk about your next project.</p>
           
 
-        </div>
+        
         <div class="name">
             <label for="name"></label>
             <input type="text" id="name" placeholder="name">
@@ -224,6 +324,7 @@
 
         <div class="button">
             <button>send message</button>
+        </div>
         </div>
         <div class="map">
             

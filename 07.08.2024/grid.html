@@ -19,40 +19,52 @@
         grid-template-areas:
         "header header header header"
         "nav nav nav nav"
-        "aside footer footer footer"
-        "aside article article article";
+         "aside aside nav nav";
      }
         .container div{
             background-color: aquamarine;
             border: 2px solid black;
             padding: 25px;
-            height: 10vh;
+            height: 100%;
+            width: 100%;
             
             
         }
         .header1{
             grid-area: header;
+            height: 20%;
+            width: 30%;
+            
 
         }
        
         .nav1{
             grid-area: nav;
+            height: 20%;
+            width: 30%;
         }
         
             
       
         .aside1{
             grid-area: aside;
+            height: 20%;
+            width: 30%;
 
         }
        
         .footer1{
             grid-area: footer;
+            height: 20%;
+            width: 30%;
 
         }
         .article{
             grid-area: article;
+            height: 20%;
+            width: 30%;
         }
+
        
         
   
@@ -63,12 +75,9 @@
 <body>
     <div class="container">
       <div class="header1">header</div>
-     
-      
       <div class="nav1">nav</div>
-     
       <div class="aside1">aside</div>
-      
+
       <div class="footer1">footer</div>
       <div class="article">article</div>
       
