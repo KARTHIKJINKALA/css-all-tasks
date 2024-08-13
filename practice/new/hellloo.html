@@ -5,29 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .a1{
-            background-color: blueviolet;
+        /* div{
+            border: 2px solid red;
+            background-color: chartreuse;
+            height:300px;
+            width:300px;
+           transition: all 4s;
             
-        }
-        .a2{
-           visibility: hidden;
-        }
+        } */
+        /* div:hover{
+            transform: translate(200px);
 
+        } */
+        /* div:hover{
+            
+            
+
+            transform: scale(1,-1.5);
+        } */
+        /* div:hover{
+            
+            
+
+            transform: rotateY(5600deg);
+        } */
+        /* div:hover{
+            
+            
+
+            transform: skew(-60deg,-50deg);
+        } */
+         h1{
+            background-color: aquamarine;
+            color: blueviolet;
+            padding: 2%;
+            width: 200px;
+            animation-name: bgchange;
+            animation-duration: 5s;
+            /* animation-iteration-count: infinite; */
+            /* animation-delay: 3s; */
+            animation-fill-mode: both;
+            animation-direction: normal;
+         }
+         
+         @keyframes bgchange{
+            0%{
+                background-color: rgb(160, 95, 157);
+                transform: translate(0px);
+            }
+           
+            33%{
+                background-color: rgb(139, 132, 0);
+                transform: translate(300px);
+            }
+            66%{
+                background-color: rgb(139, 0, 51);
+                transform: translate(500px,500px);
+
+            }
+            100%{
+                background-color: darkmagenta;
+                transform: translate(0px,200px);
+            }
+
+
+         }
+         h4{
+            width: 100px;
+            animation-name: bgchange;
+         }
+
+      
     </style>
 </head>
 <body>
-    <div class="a1">
-    <table border="3" cellapdding="5px" class="a2">
-        <tr>
-            <td>karthik</td>
-        </tr>
-        <tr>
-            <td>hello</td>
-        </tr>
-        <tr>
-            <td>hi</td>
-        </tr>
-    </table>
-    </div>
+    <h1>karthik jinkla</h1>
+    <h4>jinkala</h4>
 </body>
 </html>

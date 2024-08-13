@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background{
+            background-image: url(song.jpeg);
+            height: 150vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+        img{
+            height: 20vh;
+            margin-top: 10%;
+            margin-left: 10%;
+            border-radius: 15vh;
+        }
+        .style{
+            display: flex;
+        }
+        .child1,.child2{
+            margin-left: 10%;
+            
+            background-color: blueviolet;
+            height: 3em;
+            width: 0.3em;
+           animation-name: height;
+           animation-duration: 5s;
+           animation-fill-mode: backwards;
+           animation-direction: alternate;
+           animation-iteration-count: infinite;
+        }
+        .child3,.child4{
+            margin-left: 10%;
+            
+            background-color: blueviolet;
+            height: 3em;
+            width: 0.3em;
+           animation-name: height;
+           animation-duration: 5s;
+           animation-fill-mode: backwards;
+           animation-direction: alternate;
+           animation-iteration-count: infinite;
+           animation-delay: 2s;
+           animation-timing-function: ease-in;
+
+        }
+        .child5,.child6{
+            margin-left: 10%;
+            
+            background-color: blueviolet;
+            height: 3em;
+            width: 0.3em;
+           animation-name: height;
+           animation-duration: 5s;
+           animation-fill-mode: backwards;
+           animation-direction: alternate;
+           animation-iteration-count: infinite;
+           animation-delay: 3s;
+           animation-timing-function: ease-out;
+
+        }
+        .child7,.child8,.child9{
+            margin-left: 10%;
+            
+            background-color: blueviolet;
+            height: 3em;
+            width: 0.3em;
+           animation-name: height;
+           animation-duration: 5s;
+           animation-fill-mode: backwards;
+         
+           animation-iteration-count: infinite;
+           animation-delay: 3s;
+           animation-timing-function: ease;
+
+        }
+
+        @keyframes height{
+            from{
+                transform: translateY(100px);
+                background-color: chartreuse;
+                
+  
+            }
+            to{
+                transform: translateY(300px);
+                background-color: red;
+                height:100px;
+                width: 50px;
+            }
+            
+        }
+        
+        
+    
+    
+      
+    
+        
+    </style>
+</head>
+<body>
+    <div class="background">
+        <img src="pexels-photo-4200745.jpeg" alt="">
+        <div class="style">
+        <div class="child1"></div>
+        <div class="child2"></div>
+        <div class="child3"></div>
+        <div class="child4"></div>
+        <div class="child5"></div>
+        <div class="child6"></div>
+        <div class="child7"></div>
+        <div class="child8"></div>
+        <div class="child9"></div>
+        </div>
+        <div class="music" >
+            <audio src="[iSongs.info] 01 - Yennela.mp3" controls muted>
+    
+            </audio>
+        </div>
+    </div>
+   
+</body>
+</html>

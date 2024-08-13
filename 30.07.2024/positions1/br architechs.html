@@ -47,7 +47,6 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
        justify-content: space-between;
        row-gap: 2%;
-       
 
       }
        .image1{
@@ -156,6 +155,16 @@
         height: 80vh;
         background-attachment: fixed;
     }
+    
+    .projects{
+        background-image: url(/css-all-tasks/30.07.2024/positions1/house1.jpg);
+    }
+    span{
+        background-color: black;
+        color: white;
+        font-size: 3vh;
+    }
+    
     @media screen and (width<576px){
             .container,.background{
                  background-color: chartreuse;
@@ -163,32 +172,31 @@
             }
         }
         @media screen and (width<576px){
-            .images{
-                 background-color: chartreuse;
-               grid-template-columns: auto auto auto auto;
+            .project{
+                background-color: aquamarine;
+                grid-template-columns: 1fr ;
             }
+
         }
         @media screen and (width<576px){
-            .contact{
-                 background-color: chartreuse;
-                 flex-direction: column;
+            .response{
+                background-color: aquamarine;
+                display: flex;
+                flex-direction: column;
+                
+                
             }
+
         }
         @media screen and (width<576px){
             .team{
-                 background-color: rgb(251, 255, 0);
-                 display: block;
+                background-color: aquamarine;
+                flex-direction: coloumn;
+                
             }
-        }
-        .projects{
-            background-image: url(/css-all-tasks/30.07.2024/positions1/house1.jpg);
-        }
-        span{
-                   background-color: black;
-                   color: white;
-                   font-size: 3vh;
-        }
 
+        }
+     
     </style>
 </head>
 <body>
@@ -255,12 +263,8 @@
 
 
 
-
-
-
-
-        
     </div>
+    
     <div class="about" id="about">
         <h1>About</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -302,7 +306,8 @@
         <button>contact</button>
         </div>
         </div>
-        </div><br>
+        </div>
+       
 
         <div class="contact" id="contact">
             <h1>Contact</h1>
