@@ -18,11 +18,11 @@
            
         }
         .br{
-            /* margin-left: 2%; */
+            margin-left: 2%;
         }
         .links{
             display: flex;
-            /* padding-right: vh; */
+            padding-right: 2vh;
             column-gap: 4%;
             width: 100%;
             
@@ -50,6 +50,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
        justify-content: space-between;
        row-gap: 2%;
+       width: 100%;
   
 
       }
@@ -173,6 +174,47 @@
         border: 2px solid red;
     }
     
+
+    @media screen and (width<426px){
+
+        .container{
+            flex-direction: column;
+        }
+        .project{
+            grid-template-columns: 1fr ;
+            height: 300vh;
+        }
+        .image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8{
+            width: 100%;
+        }
+        .about{
+            text-align: center;
+        }
+        .about>p{
+            text-align: center;
+        }
+        .team{
+            flex-direction: column;
+            height: 200vh;
+           
+            align-items: center;
+        }
+        .team1,.team2,.team3,.team4{
+            width: 100%;
+        }
+        .team1>button, .team2>button, .team3>button, .team4>button{
+            margin-left: 1%;
+            width: 70%;
+        }
+        .contact{
+            text-align: center;
+        }
+        .button>button{
+            width: 80%;
+            background-color:black;
+        }
+
+    }
 
     </style>
 </head>
