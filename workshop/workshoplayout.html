@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        :root{
+            --orange: #ff691e;
+  --white: #ffffff;
+  --blue: #0000ff;
+  --gold: #ffd700;
+  --blueviolet: blueviolet;
+  --black: #000000;
+
+        }
+        .header{
+            background-image: url(pexels-nubikini-386009.jpg);
+            background-repeat: no-repeat0;
+            height: 110vh;
+            background-size: cover;
+            
+         
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0%;
+         width:100%;
+         gap:20%;
+         
+        }
+        .navbar1>h1{
+            color: var(--white);
+            font-size: 6vh;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .links{
+            display: flex;
+            align-content: center;
+            width: 38%;
+            top:0%;
+            /* background-color: #ff691e; */
+            
+           
+            
+           
+           
+            
+        }
+        .links>a{
+            height: 4vh;
+            padding-left: 5%;
+           
+            padding-right: 5%;
+            text-decoration: none;
+            color: var(--black);
+            font-size: 3vh;
+            text-align: center;
+            
+         
+          
+
+        }
+        .links>a:hover{
+            background-color: var(--white);
+        }
+        .card1{
+          margin-left: 17%;
+          
+        }
+        .card1>h1{
+            font-size: 14vh;
+            line-height: 5vh;
+        }
+        .card1>p{
+        
+            font-size: 3.5vh;
+            line-height: 0.5vh;
+        }
+        .card1>button{
+            width: 10%;
+           background-color:var(--white);
+        }
+        .section1{
+            background-color: var(--white);
+            height: 100vh;
+            /* border: 2px solid red; */
+            
+        }
+        .text{
+            /* border: 2px solid blue; */
+            height: 25vh;
+            width: 50%;
+            margin-left: 17%;
+            line-height: 3vh;
+            margin-top: 5%;
+        }
+        .text>h1{
+            font-size: 8vh;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+
+        }
+        .card2,.card3,.card4{
+            height: 40vh;
+            width: 25%;
+            border: 2px solid blue;
+            text-align: center;
+            border-radius: 3%;
+      
+        }
+        .card4:hover{
+            border: none;
+            animation-name: transform;
+            animation-timing-function: linear;
+            animation-fill-mode: both;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            animation-delay: ;
+            
+
+
+        }
+        .card3:hover{
+            animation-name: transform;
+            animation-timing-function: linear;
+            animation-fill-mode: both;
+            
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            animation-delay: ;
+
+
+        }
+        .card2:hover{
+            animation-name: transform;
+            animation-timing-function: linear;
+            animation-fill-mode: both;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            animation-delay: ;
+
+
+        }
+        @keyframes transform{
+           0% {
+                transform: scale(0px,0px);
+
+            }
+            100%{
+          
+                transform: scaleX(120%);
+
+            }
+        }
+        
+        .card2>img,.card3>img,.card4>img{
+            height: 11vh;
+            width: 25%;
+            margin-top: 10%;
+          
+           
+
+
+        }
+       
+
+        .section1a{
+            /* border: 2px solid red; */
+            height: 50vh;
+            display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        margin-left: 17%;
+        gap: 5%;
+        
+        }
+        .footer{
+            /* border: 2px solid rgb(55, 255, 0); */
+            height: 80vh ;
+            background-image: linear-gradient(to left,blueviolet,white,blueviolet);
+           
+        }
+        .footera{
+            display: flex; 
+            margin-left: 17%;
+            /* margin-top: 8%; */
+            gap: 1%;
+            z-index: 1;
+           
+         
+            
+        }
+        .footer1,.footer2,.footer3,.footer4{
+            /* border: 2px solid rgb(255, 230, 0); */
+            height:35vh;
+            width: 15%;
+           
+            margin-top: 8%;
+           
+
+        }
+        .footer5{
+            
+            /* border: 2px solid rgb(255, 230, 0); */
+            height:35vh;
+            width: 25%;
+            margin-top: 8%;
+        }
+        .footer6{
+            /* border: 2px solid rgb(0, 208, 255); */
+            height: 35vh;
+            width: 100%;
+            display: flex;
+            gap: 3%;
+            z-index: 1;
+
+        }
+      
+        .footer6>h3{
+            height: 5vh;
+            width: 15%;
+            background-color:var(--white);
+            border-radius: 35%;
+
+        }
+        .copyright{
+            margin-top: 5%;
+            margin-left: 40%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+        <div class="navbar1">
+            <h1>Travel</h1>
+        </div>
+        <div class="links">
+            <a href="">Home</a>
+            <a href="">Services</a>
+            <a href="">Contact us!</a>
+        </div>
+        </div>
+        <div class="card1">
+            <h1>Fuel Mind</h1>
+            <h1>Travel</h1>
+            <p>travel along with us </p>
+            <p>enjoy the trip</p>
+            <button>Let's Go Now</button>
+        </div>
+
+    </div>
+   <div class="section1">
+    <div class="text">
+        <h1>Start your vacation</h1>
+        <h1>with lots of services</h1>
+    </div>
+    <div class="section1a">
+    <div class="card2">
+        <img src="pexels-raf-jabri-29128-113585.jpg" alt="">
+        <h1>Ship Cruise</h1>
+        <p>150 Properties   </p>
+
+
+    </div>
+    <div class="card3">
+        <img src="pexels-raf-jabri-29128-113585.jpg" alt="">
+        <h1>Ship Cruise</h1>
+        <p>150 Properties   </p>
+
+    </div>
+    <div class="card4">
+        <img src="pexels-raf-jabri-29128-113585.jpg" alt="">
+        <h1>Ship Cruise</h1>
+        <p>150 Properties   </p>
+
+    </div>
+    </div>
+
+   </div>
+   <div class="footer">
+    <div class="footera">
+    <div class="footer1">
+        <h2>Quick links</h2>
+        <h3>About</h3>
+        <h3>Terms and conditions</h3>
+        <h3>Privacy policy</h3>
+        <h3>Help</h3>
+        <h3>Tour</h3>
+    </div>
+    <div class="footer2">
+        
+        <h2>Quick links</h2>
+        <h3>About</h3>
+        <h3>Terms and conditions</h3>
+        <h3>Privacy policy</h3>
+        <h3>Help</h3>
+        <h3>Tour</h3>
+    </div>
+    <div class="footer3">
+        <h2>Quick links</h2>
+        
+        <h3>About</h3>
+        <h3>Terms and conditions</h3>
+        <h3>Privacy policy</h3>
+        <h3>Help</h3>
+        <h3>Tour</h3>
+    </div>
+    <div class="footer4">
+        <h2>Quick links</h2>
+      
+        <h3>About</h3>
+        <h3>Terms and conditions</h3>
+        <h3>Privacy policy</h3>
+        <h3>Help</h3>
+        <h3>Tour</h3>
+    </div>
+    <div class="footer5">
+        
+        <h2>Connect</h2>
+    <div class="footer6">
+      <h3></h3>
+      <h3></h3>
+      <h3></h3>
+      <h3></h3>
+      </div>
+    </div>
+   
+    </div>
+    <div class="copyright">
+        <p>©2024-all rights reserved</p>
+    </div>
+</div>
+    
+</body>
+</html>

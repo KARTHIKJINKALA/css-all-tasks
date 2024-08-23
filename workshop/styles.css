@@ -1,0 +1,242 @@
+.header{
+    background-image: url(pexels-falling4utah-2724749.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+  
+    
+}
+.header1{
+      display: flex;
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+    /* border: 2px solid rgb(212, 255, 0); */
+    height: 33vh;
+    /* background-color: aquamarine; */
+    /* margin-top: 5%; */
+    position: sticky;
+    top: 0px;
+
+}
+.heading{
+    margin-top: 5%;
+    /* border: 2px solid rgb(0, 94, 255); */
+    height: 15vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+.heading>h3{
+    color: black;
+}
+.links{
+    margin-top: 5%;
+    /* border: 2px solid red; */
+    height: 15vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    background-color: white;
+
+    padding-left: 8%;
+
+
+
+}
+.links>a{
+    color: black;
+    text-decoration: none;
+}
+.links>h3{
+    background-color: black;
+    border-radius: 9px;
+    height: 7vh;
+    width:5vw;
+    color: white;
+    text-align: center;
+}
+.card{
+    margin-top: 5%;
+    /* border: 2px solid red; */
+    height: 35vh;
+    width: 32%;
+    
+    margin-left: 15%;
+
+}
+.card>h3{
+    font-size: 6vh;
+    line-height: 1%;
+    color: white;
+}
+.card>p{
+    color: white;
+}
+.section1{
+    background-color: white;
+    height: 80vh;
+}
+.title{
+    margin-top: 10%;
+   /* border: 2px solid blue; */
+    height: 10vh;
+
+}
+.title>h1{
+    margin-left: 15%;
+}
+.card1,.card2,.card3,.card4{
+    height: 42vh;
+    width: 21%;
+    margin-top: 5%;
+    /* border: 2px solid rgb(51, 255, 0); */
+    text-align: center;
+    background-color: khaki;
+}
+.card1>h1,.card2>h1,.card3>h1,.card4>h1{
+    line-height: 10px;
+    font-size: 4vh;
+}
+.cards{
+    display: flex;
+    gap: 2%;
+    margin-left: 12%;
+}
+.section2{
+
+   height:100vh;
+   /* background-color: lightseagreen; */
+}
+.name{
+text-align: center;
+}
+.section2>h1{
+  
+    text-align: center;
+   
+
+}
+.section2>h3{
+    /* margin-top: 5%; */
+    text-align: center;
+   
+
+}
+.sec2image1a{
+    background-image: url(pexels-cottonbro-4553261.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66vh;
+    width: 30%;
+    
+
+}
+.sec2image1a:hover{
+    background-size: 100% 100%;
+-moz-transition: all .5s;
+-webkit-transition: all .5s;
+transition: all .5s;
+
+
+}
+.sec2image1b:hover{
+    background-size: 100% 100%;
+-moz-transition: all .5s;
+-webkit-transition: all .5s;
+transition: all .5s;
+
+
+}
+.sec2image1c:hover{
+    background-size: 100% 100%;
+-moz-transition: all .5s;
+-webkit-transition: all .5s;
+transition: all .5s;
+
+
+}
+
+.sec2image1b{
+    background-image: url(pexels-matvalina-27312331.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66vh;
+    width: 30%;
+}
+.sec2image1c{
+    background-image: url(pexels-falling4utah-2724749.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66vh;
+    width: 30%;
+}
+.sec2image{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+.sec2image1a,.sec2image1b,.sec2image1c{
+    display: flex;
+    align-items: end;
+    
+}
+.sec2image1a>h2,.sec2image1b>h2,.sec2image1c>h2{
+    color: white;
+}
+.button{
+    margin-top: 2%;
+    margin-left: 45%;
+}
+
+.button>h2{
+    height: 5vh;
+    width: 14vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 7%;
+}
+.section3{
+    height: 26vh;
+    /* border: 2px solid red; */
+    background-color: yellow;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.brand>h1{
+    text-align: center;
+    width: 100%;
+    height: 6vh;
+    /* border: 2px solid red; */
+}
+.brands{
+    display: flex;
+    justify-content: center;
+    gap:10%;
+
+}
+.section4{
+    height: 110vh;
+    background-color: white;
+    border:2px solid red;
+}
+.before{
+    border:2px solid red;
+    height: 23vh;
+
+
+}
+.before>h1{
+    text-align: center;
+    margin-top: 5%;
+}
+.before>h3{
+    text-align: center;
+    /* margin-top: 5%; */
+}
+

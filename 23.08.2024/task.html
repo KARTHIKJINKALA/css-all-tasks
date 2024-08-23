@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+button:hover{
+    background-color: blueviolet;
+}
+.red-mode {
+  background-color: blue;
+  color: rgb(9, 255, 0);
+
+ 
+}
+
+    </style>
+</head>
+<body>
+    <p >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quas, vel dolores distinctio sed adipisci repudiandae consectetur consequuntur a laboriosam voluptas totam quibusdam doloribus nulla facilis blanditiis illum repellendus hic!
+    Esse expedita perferendis sed corporis in molestiae molestias minus minima, voluptate nesciunt. Voluptatum atque nisi dignissimos nam rerum perferendis voluptate exercitationem hic, quas in vel expedita ipsa aspernatur illo saepe?
+    Sapiente doloribus dignissimos perferendis voluptatem nihil quae quam minus, fugit quos excepturi eaque vitae ex. Earum voluptatum, iure exercitationem labore ad maxime deleniti, minus quae vel doloremque excepturi tempora odio.
+    Quaerat vitae mollitia, commodi, aspernatur ex sed nulla placeat aperiam, tempore amet aut. Mollitia unde suscipit sapiente iste id. Quae unde deserunt delectus laborum voluptatem quasi optio nesciunt. Nobis, ab.
+    Tempore, odio? Necessitatibus libero veritatis officiis eaque ab, adipisci placeat perspiciatis omnis vero architecto aut dicta iure molestias expedita quibusdam quisquam. Aperiam sit corporis repellendus at maiores rem fuga? Corporis!
+  </p>
+  <button onclick="newfunction()">click me</button>
+    <button onclick="myFunction()">click me </button>
+   <script>
+        function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+         function newfunction() {
+      var element = document.body;
+      element.classList.toggle("red-mode");
+    }
+        </script>
+    
+</body>
+</html>

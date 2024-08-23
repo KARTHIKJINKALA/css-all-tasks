@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* MAIN LIGHT */
+.txtColor3 {
+    color: #FFF7F1;
+}
+
+.bgColor3 {
+    background-color: #FFF7F1;
+}
+/* SECONDARY LIGHT */
+.txtColor4 {
+    color: #FBF3EC;
+}
+
+.bgColor4 {
+    background-color: #FBF3EC;
+}
+/* MAIN DARK */
+.txtColor5 {
+    color: #022326;
+}
+
+.bgColor5 {
+    background-color: #022326;
+}
+/* SECONDARY DARK */
+.txtColor6 {
+    color: #01181C;
+}
+
+.bgColor6 {
+    background-color: #01181C;
+}
+    </style>
+</head>
+<body>
+    <button onclick="toggleDarkMode()">Toggle dark mode</button>
+    <div class="darkmode bgColor3 txtColor5 bs1 fcv">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem et beatae ad laboriosam a expedita deserunt odio error, sequi cupiditate similique earum tenetur aspernatur excepturi magni? Repudiandae voluptates perspiciatis sint?
+    Error, doloribus? Temporibus sit sequi ab libero animi rerum omnis incidunt enim. Iusto vero architecto qui? Sequi, natus. Sequi iusto culpa illo dolores voluptatum ex molestias vitae explicabo! Quasi, iusto?
+    Officiis maxime expedita molestiae possimus unde. Enim reiciendis obcaecati adipisci sit fugiat excepturi hic labore nisi? Ipsa nulla, blanditiis pariatur officia numquam iste aut tempora reprehenderit laboriosam a nisi error.
+    Vitae facere nobis quia eos ipsa! Labore maiores, totam ducimus magni at tenetur assumenda laudantium nobis temporibus molestiae minus id minima? Mollitia repellat qui, earum ipsam vero temporibus saepe corporis!
+    Dolorem repudiandae ex aut assumenda porro in facere inventore velit natus doloribus magnam sapiente hic laboriosam laudantium, corporis maxime minima dicta enim esse consectetur. Iure quam earum exercitationem aliquam quod?
+    Odio autem repellat blanditiis natus omnis vitae atque quisquam voluptates amet, aliquam commodi molestias vero maxime rem alias voluptatibus eum eligendi minima libero iure fuga. Doloribus laudantium quae aliquam dolor.
+    Praesentium quaerat commodi harum facilis quos veniam. Consequatur corrupti aliquid sapiente! Perferendis dolore quod error ad accusantium necessitatibus excepturi odit? Illum in sapiente voluptatem accusantium ad, beatae at quidem totam!
+    Eos quidem animi nulla tempore eligendi ipsa iste, soluta, distinctio sed nemo vel reprehenderit impedit laborum dolore. Modi, aut culpa consequuntur enim assumenda molestias provident maiores animi quas consectetur aliquid.
+    Quod provident cupiditate incidunt, quia officia reiciendis dolorum minima exercitationem odit nam in laudantium id quos perspiciatis aliquid ipsa vero commodi quibusdam autem enim, voluptates amet facere inventore maxime? Minus?
+    Sequi cupiditate rem officiis fugit consequatur, quidem amet. Perferendis possimus labore esse iste minima facilis quidem animi quam repellendus eveniet a vitae odit, excepturi voluptate enim, nesciunt laudantium minus veniam.</p>
+   </div>
+    <script>
+        function toggleDarkMode() {
+    let bgColor3 = document.getElementsByClassName('bgColor3');
+        for(let index = 0 ; index < bgColor3.length ; ++index)
+            bgColor3[index].classList.toggle('bgColor5');
+    let txtColor5 = document.getElementsByClassName('txtColor5');
+        for(let index = 0 ; index < txtColor5.length ; ++index)
+            txtColor5[index].classList.toggle('txtColor3');
+}
+    </script>
+</body>
+</html>
