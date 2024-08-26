@@ -40,10 +40,14 @@ backdrop-filter: blur( 2.5px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-.puuppy1a>img{
+.puppy1a>img{
 height: 40vh;
 border-radius: 10px;
 }
+
+
+
+/*  */
 .puppy2{
 background-image: url(img2.avif);
 background-repeat: no-repeat;
@@ -55,11 +59,8 @@ background-repeat: no-repeat;
    
     background-attachment: fixed;
 }
-.puuppy2a>img{
-height: 40vh;
-border-radius: 10px;
-}
-.puppyy{
+
+.puppy2a{
 
 background-color: rgb(255, 255, 255);
 height: 30vh;
@@ -79,6 +80,16 @@ backdrop-filter: blur( 2.5px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+.puppy2aimg>img{
+    height: 40vh;
+    border-radius: 10px;
+    width: 30vw;
+    }
+
+
+/*  */
+
+
 .puppy3{
 background-image:url(img3.avif);
     background-repeat: no-repeat;
@@ -88,11 +99,11 @@ background-image:url(img3.avif);
     
 
 }
-.puuppy3a>img{
+.puppy3a>img{
 height: 40vh;
 border-radius: 10px;
 }
-.puppyyy{
+.puppyy{
 
 background-color: rgb(255, 255, 255);
 height: 30vh;
@@ -129,6 +140,9 @@ font-family: sans-serif;
 .puppy3atext>h3,.puppy3atext>p{
     font-family: sans-serif;
 }
+.puppy1atext{
+
+}
 @media screen and (width<576px){
     .header{
         background-image:url(img1\ \(1\).avif);
@@ -161,28 +175,23 @@ font-family: sans-serif;
         height: 80vh;
         flex-direction: column;
     }
-    .puuppy1a>img{
-        height: 40vh;
-        border-radius: 10px;
-        width: 60vw;
-        }
-        .puppyy{
-            height: 80vh;
-            flex-direction: column;
-        }
-        .puuppy2a>img{
-            height: 40vh;
-            border-radius: 10px;
-            width: 60vw;
-            }
-        
-        .puuppy3a>img{
-            height: 40vh;
-            border-radius: 10px;
-            width: 60vw;
-            }
-            .puppyyy{
-                height: 80vh;
-        flex-direction: column; 
-            }
+    .puppy2a{
+        height: 80vh;
+        flex-direction: column;
+    }
+    .puppyy{
+        height: 80vh;
+        flex-direction: column;
+    }
+    .puppy1a>img{
+        width: 50vw;
+    }
+    .puppy2aimg>img{
+        width: 50vw;
+
+    }
+    .puppy3a>img{
+        width: 50vw;
+    }
+
 }
